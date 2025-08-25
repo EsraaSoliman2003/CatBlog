@@ -1,0 +1,30 @@
+﻿@model IEnumerable<CatBlog.Models.Post>
+
+<h2>Admin Dashboard</h2>
+
+<a href="@Url.Action("Create", "Admin")" class="btn btn-success mb-3">Add New Post</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td>@post.Title</td>
+                <td>@post.CreatedAt.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a href="@Url.Action("Edit", "Admin", new { id = post.Id })" class="btn btn-primary btn-sm">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@post.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

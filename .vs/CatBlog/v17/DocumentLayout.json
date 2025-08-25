@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "D:\\CatBlog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\migrations\\20250825210623_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\migrations\\20250825210623_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\data\\catblogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\data\\catblogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +46,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 178,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Program.cs",
+              "RelativeDocumentMoniker": "CatBlog\\Program.cs",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Program.cs",
+              "RelativeToolTip": "CatBlog\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T21:14:07.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CatBlog\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CatBlog\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T21:12:30.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "CatBlog\\Views\\Home\\Details.cshtml",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "CatBlog\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T21:11:44.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CatBlog\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CatBlog\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T21:10:08.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CatBlog\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CatBlog\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T21:08:02.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250825210623_InitialCreate.cs",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Migrations\\20250825210623_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CatBlog\\Migrations\\20250825210623_InitialCreate.cs",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Migrations\\20250825210623_InitialCreate.cs",
+              "RelativeToolTip": "CatBlog\\Migrations\\20250825210623_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T21:06:24.35Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CatBlogContext.cs",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Data\\CatBlogContext.cs",
+              "RelativeDocumentMoniker": "CatBlog\\Data\\CatBlogContext.cs",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Data\\CatBlogContext.cs",
+              "RelativeToolTip": "CatBlog\\Data\\CatBlogContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T21:00:49.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\appsettings.json",
+              "RelativeDocumentMoniker": "CatBlog\\appsettings.json",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\appsettings.json",
+              "RelativeToolTip": "CatBlog\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-25T21:00:18.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "CatBlog\\Models\\Post.cs",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Models\\Post.cs",
+              "RelativeToolTip": "CatBlog\\Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T21:01:30.423Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -43,47 +184,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Models\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "CatBlog\\Models\\LoginViewModel.cs",
-              "ToolTip": "D:\\CatBlog\\CatBlog\\Models\\LoginViewModel.cs",
-              "RelativeToolTip": "CatBlog\\Models\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T19:53:43.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "CatBlog\\Models\\Admin.cs",
-              "ToolTip": "D:\\CatBlog\\CatBlog\\Models\\Admin.cs",
-              "RelativeToolTip": "CatBlog\\Models\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T19:53:38.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Post.cs",
-              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Models\\Post.cs",
-              "RelativeDocumentMoniker": "CatBlog\\Models\\Post.cs",
-              "ToolTip": "D:\\CatBlog\\CatBlog\\Models\\Post.cs",
-              "RelativeToolTip": "CatBlog\\Models\\Post.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T19:53:24.105Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

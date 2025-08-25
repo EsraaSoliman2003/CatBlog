@@ -1,32 +1,32 @@
-using System.Diagnostics;
-using CatBlog.Models;
 using Microsoft.AspNetCore.Mvc;
+using CatBlog.Data;
+using CatBlog.Models;
+using System.Linq;
 
 namespace CatBlog.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly CatBlogContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(CatBlogContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
+        // GET: /Home/Index
         public IActionResult Index()
         {
-            return View();
+            var posts = _context.Posts.OrderByDescending(p => p.CreatedAt).ToList();
+            return View(posts);
         }
 
-        public IActionResult Privacy()
+        // GET: /Home/Details/5
+        public IActionResult Details(int id)
         {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            var post = _context.Posts.FirstOrDefault(p => p.Id == id);
+            if (post == null) return NotFound();
+            return View(post);
         }
     }
 }
