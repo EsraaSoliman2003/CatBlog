@@ -1,22 +1,113 @@
 ﻿@model IEnumerable<CatBlog.Models.Post>
 
+<style>
+    .card {
+        background-color: #1c1c1c;
+        color: #e0e0e0;
+        border-radius: 12px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+        margin-bottom: 2rem;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+        max-width: 800px; 
+        margin-left: auto;
+        margin-right: auto;
+        display: flex; 
+        align-items: stretch;
+    }
+
+    .card:nth-child(even) {
+        flex-direction: row; 
+    }
+
+    .card:nth-child(odd) {
+        flex-direction: row-reverse; 
+    }
+
+    .card img {
+        width: 300px; 
+        height: auto; 
+        object-fit: cover;
+        border-radius: 12px 0 0 12px; 
+    }
+
+    .card:nth-child(odd) img {
+        border-radius: 0 12px 12px 0; 
+    }
+
+    .card-body {
+        padding: 1.5rem;
+        flex: 1; 
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: center;
+    }
+
+    .card:nth-child(even) .card-body {
+        align-items: flex-end;
+    }
+
+    .box{
+        text-align: center;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+        color: #e0e0e0;
+        font-weight: 600;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #bbbbbb;
+        margin-bottom: 1rem;
+        line-height: 1.6;
+    }
+
+    .btn-primary {
+        background-color: #00d4ff;
+        color: #121212;
+        border: 1px solid #00aacc;
+        font-weight: bold;
+        padding: 0.5rem 1.5rem;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #33e5ff;
+        border-color: #00ccee;
+        color: #121212;
+    }
+
+    h2 {
+        color: #e0e0e0;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+
+</style>
+
 <h2>Cat Blog</h2>
 
-<div class="row">
-    @foreach (var post in Model)
-    {
-        <div class="col-md-4 mb-3">
-            <div class="card">
-                <img src="@post.ImageUrl"
-                     class="card-img-top"
-                     alt="@post.Title"
-                     style="width:100%; height:150px; object-fit:cover;" />
-                <div class="card-body">
-                    <h5 class="card-title">@post.Title</h5>
-                    <p class="card-text">@post.Content.Substring(0, Math.Min(post.Content.Length, 100))...</p>
-                    <a href="@Url.Action("Details", "Home", new { id = post.Id })" class="btn btn-primary">Read More</a>
-                </div>
+@foreach (var post in Model)
+{
+    <div class="card">
+        <img src="@post.ImageUrl"
+             class="card-img"
+             alt="@post.Title" />
+        <div class="card-body">
+            <div class="box">
+                <h5 class="card-title">@post.Title</h5>
+                <p class="card-text">@post.Content.Substring(0, Math.Min(post.Content.Length, 100))...</p>
+                <a href="@Url.Action("Details", "Home", new { id = post.Id })" class="btn btn-primary">Read More</a>
             </div>
         </div>
-    }
-</div>
+    </div>
+}

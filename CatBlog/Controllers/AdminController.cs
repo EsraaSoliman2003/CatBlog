@@ -61,7 +61,7 @@ namespace CatBlog.Controllers
             if (HttpContext.Session.GetString("Admin") == null)
                 return RedirectToAction("Login");
 
-            return View();
+            return View(new Post());
         }
 
         // POST: /Admin/Create

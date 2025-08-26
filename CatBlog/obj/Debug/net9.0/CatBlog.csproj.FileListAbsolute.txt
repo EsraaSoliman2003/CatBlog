@@ -227,7 +227,3 @@ D:\CatBlog\CatBlog\obj\Debug\net9.0\refint\CatBlog.dll
 D:\CatBlog\CatBlog\obj\Debug\net9.0\CatBlog.pdb
 D:\CatBlog\CatBlog\obj\Debug\net9.0\CatBlog.genruntimeconfig.cache
 D:\CatBlog\CatBlog\obj\Debug\net9.0\ref\CatBlog.dll
-D:\CatBlog\CatBlog\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-D:\CatBlog\CatBlog\obj\Debug\net9.0\scopedcss\projectbundle\CatBlog.bundle.scp.css
-D:\CatBlog\CatBlog\obj\Debug\net9.0\compressed\locwgig9he-mnukby7ee4.gz
-D:\CatBlog\CatBlog\obj\Debug\net9.0\compressed\5a169wsdrv-mnukby7ee4.gz

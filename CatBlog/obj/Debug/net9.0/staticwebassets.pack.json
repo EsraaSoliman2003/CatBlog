@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\CatBlog\\CatBlog\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\CatBlog.bundle.scp.css",
-      "PackagePath": "staticwebassets\\CatBlog.mnukby7ee4.bundle.scp.css"
-    },
-    {
       "Id": "D:\\CatBlog\\CatBlog\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
