@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\CatBlog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|d:\\catblog\\catblog\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9E35105-53E9-4F6C-9656-63DC640E8233}|CatBlog\\CatBlog.csproj|solutionrelative:catblog\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 178,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CatBlog\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CatBlog\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T14:52:54.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CatBlog\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\CatBlog\\CatBlog\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CatBlog\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAgwGsAAAAVAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CatBlog\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CatBlog\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAHQAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-26T00:02:58.873Z",
+              "WhenOpened": "2025-08-26T14:48:30.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "CatBlog\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "CatBlog\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T14:48:00.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CatBlog\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "CatBlog\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T14:46:41.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\CatBlog\\CatBlog\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "CatBlog\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "D:\\CatBlog\\CatBlog\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "CatBlog\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T09:50:44.002Z",
               "EditorCaption": ""
             },
             {

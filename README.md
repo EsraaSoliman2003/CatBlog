@@ -11,13 +11,11 @@ Browse cat posts, read content, and enjoy cute cat images. Admin login only, no 
 
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
-- [Screenshot](#screenshot)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Admin Login](#admin-login)
 - [Project Structure](#project-structure)
-- [Usage](#usage)
 - [Future Improvements](#future-improvements)
 - [License](#license)
 
@@ -32,24 +30,18 @@ CatBlog is a simple blog dedicated to cats. Key features include:
 
 ## Technologies Used
 
-- **ASP.NET Core MVC** (.NET 7 or later)
+- **ASP.NET Core MVC** (.NET 9)
 - **Entity Framework Core** (Code First)
 - **SQL Server**
 - **Razor Views**
 - **HTML/CSS** (custom styling)
 - **Bootstrap** (optional, for card styling)
 
-## Screenshot
-
-![CatBlog Screenshot](https://i.imgur.com/your-sample-image.jpg)  
-*Replace the URL with an actual screenshot of your blog.*
-
 ## Getting Started
 
 ### Prerequisites
 
-- **Visual Studio 2022** or later
-- **.NET 7 SDK** or later
+- **.NET 9 SDK** or later
 - **SQL Server** (local or remote)
 
 ### Installation
@@ -57,7 +49,7 @@ CatBlog is a simple blog dedicated to cats. Key features include:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/<your-username>/CatBlog.git
+   git clone https://github.com/EsraaSoliman2003/CatBlog.git
    cd CatBlog
    ```
 
@@ -115,6 +107,9 @@ CatBlog/
 │   │   ├── Index.cshtml
 │   │   └── Details.cshtml
 │   ├── Admin/
+│   │   ├── Create.cshtml
+│   │   ├── Dashboard.cshtml
+│   │   ├── Edit.cshtml
 │   │   └── Login.cshtml
 │   └── Shared/
 │       └── _Layout.cshtml
@@ -124,18 +119,6 @@ CatBlog/
 ├── appsettings.json
 └── Program.cs
 ```
-
-## Usage
-
-1. **Start the application**:
-
-   ```bash
-   dotnet run
-   ```
-
-2. Visit `https://localhost:5001/` (or the URL shown in the console).
-3. Browse cat posts on the Home page.
-4. Use the Admin Login link to manage posts (admin only).
 
 ## Future Improvements
 

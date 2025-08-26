@@ -6,80 +6,121 @@
     <title>@ViewData["Title"] - CatBlog</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212;
-            color: #e0e0e0;
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            box-sizing: border-box;
-        }
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #121212;
+        color: #e0e0e0;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
 
-        header {
-            background-color: #1c1c1c;
-            color: #e0e0e0;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    header {
+        background-color: #1c1c1c;
+        color: #e0e0e0;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-        header h1 {
-            margin: 0;
-            font-size: 2rem;
-        }
+    header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    header .header-right a.login {
+        background-color: #00d4ff;
+        color: #121212;
+        border: 1px solid #00aacc;
+        padding: 0.5rem 1rem;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    header .header-right a.login:hover {
+        background-color: #33e5ff;
+        border-color: #00ccee;
+        color: #121212;
+    }
+
+    header .btn-header {
+        background-color: #4caf50; 
+        color: #ffffff;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-left: 0.5rem;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    header .btn-header:hover {
+        background-color: #66bb6a;
+        color: #ffffff;
+    }
+
+    header .btn-header:active {
+        transform: translateY(2px);
+    }
+
         
-        header .header-right a.login {
-            background-color: #00d4ff;
-            color: #121212;
-            border: 1px solid #00aacc;
-            padding: 0.5rem 1rem;
-            font-weight: bold;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-        }
+    header .btn-header.logout {
+        background-color: #ef5350; 
+    }
+    header .btn-header.logout:hover {
+        background-color: #f44336;
+    }
 
-        header .header-right a.login:hover {
-            background-color: #33e5ff;
-            border-color: #00ccee;
-            color: #121212;
-        }
+    header .btn-header:active {
+        transform: translateY(2px);
+    }
 
-        header .header-right a.login:focus {
-            outline: none;
-            box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.5);
-        }
-       
-        main {
-            width: 100%;
-            margin: 2rem auto;
-            padding: 0 1rem;
-            flex: 1;
-        }
+    main {
+        width: 100%;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        flex: 1;
+    }
 
-        footer {
-            background-color: #1c1c1c;
-            color: #bbbbbb;
-            text-align: center;
-            padding: 1rem;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        
-    </style>
+    footer {
+        background-color: #1c1c1c;
+        color: #bbbbbb;
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+</style>
+
 </head>
 <body>
     <header>
         <h1>CatBlog</h1>
         <div class="header-right">
-            <a asp-controller="Admin" asp-action="Login" class="login">Admin Login</a>
+            @if (Context.Session.GetString("Admin") != null)
+            {
+                <a asp-controller="Home" asp-action="Index" class="btn-header">Home</a>
+                <a asp-controller="Admin" asp-action="Dashboard" class="btn-header">Dashboard</a>
+                <form asp-controller="Admin" asp-action="Logout" method="post" style="display:inline;">
+                    <button type="submit" class="btn-header logout">Logout</button>
+                </form>
+            }
+            else
+            {
+                <a asp-controller="Admin" asp-action="Login" class="login">Admin Login</a>
+            }
         </div>
     </header>
+
 
     <main role="main">
         @RenderBody()

@@ -1,30 +1,148 @@
-﻿@model IEnumerable<CatBlog.Models.Post>
+﻿<style>
+    body {
+        font-family: 'Segoe UI', 'Noto Sans Arabic', Tahoma, Geneva, Verdana, sans-serif;
+        color: #e0e0e0;
+        background-color: #121212;
+    }
 
-<h2>Admin Dashboard</h2>
+    h2 {
+        text-align: center;
+        color: #ffffff;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
 
-<a href="@Url.Action("Create", "Admin")" class="btn btn-success mb-3">Add New Post</a>
+    .dashboard-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Created At</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var post in Model)
-        {
-            <tr>
-                <td>@post.Title</td>
-                <td>@post.CreatedAt.ToString("dd/MM/yyyy")</td>
-                <td>
-                    <a href="@Url.Action("Edit", "Admin", new { id = post.Id })" class="btn btn-primary btn-sm">Edit</a>
-                    <form asp-action="Delete" asp-route-id="@post.Id" method="post" style="display:inline;">
-                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</button>
-                    </form>
-                </td>
-            </tr>
+    .btn-success {
+        background-color: #4caf50;
+        border-color: #388e3c;
+        color: #ffffff;
+        font-weight: 500;
+        padding: 0.5rem 1.5rem;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+        text-decoration: none;
+    }
+
+        .btn-success:hover {
+            background-color: #66bb6a;
+            border-color: #4caf50;
+            color: #ffffff;
         }
-    </tbody>
-</table>
+
+    .table {
+        width: 100%;
+        background-color: #1e1e1e;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+        .table th, .table td {
+            text-align: center;
+            vertical-align: middle;
+            border: none;
+            padding: 0.5rem 1rem;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+        }
+
+        .table thead {
+            background-color: #252525;
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .table tbody tr {
+            transition: background-color 0.3s ease;
+        }
+
+            .table tbody tr:hover {
+                background-color: #2c2c2c;
+            }
+
+    .btn-primary {
+        background-color: #1e88e5;
+        border-color: #1565c0;
+        color: #ffffff;
+        font-weight: 500;
+        padding: 0.25rem 0.75rem;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #42a5f5;
+            border-color: #1e88e5;
+            color: #ffffff;
+        }
+
+    .btn-danger {
+        background-color: #ef5350;
+        border-color: #d32f2f;
+        color: #ffffff;
+        font-weight: 500;
+        padding: 0.25rem 0.75rem;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-danger:hover {
+            background-color: #f44336;
+            border-color: #c62828;
+            color: #ffffff;
+        }
+
+    .table-thumb {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+</style>
+
+<div class="dashboard-container">
+    <h2>Admin Dashboard</h2>
+
+    <a href="@Url.Action("Create", "Admin")" class="btn btn-success">Add New Post</a>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Created At</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var post in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="@post.ImageUrl" alt="@post.Title" class="table-thumb" />
+                    </td>
+                    <td>@post.Title</td>
+                    <td>@post.CreatedAt.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Admin", new { id = post.Id })" class="btn btn-primary btn-sm">Edit</a>
+                        <form asp-action="Delete" asp-route-id="@post.Id" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

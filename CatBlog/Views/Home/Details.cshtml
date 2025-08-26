@@ -1,11 +1,78 @@
-﻿@model CatBlog.Models.Post
+﻿<style>
+    .post-container {
+        background-color: #1c1c1c;
+        color: #e0e0e0;
+        border-radius: 12px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+        max-width: 800px;
+        margin: 0.5rem auto;
+        padding: 1rem;
+        overflow: hidden;
+    }
 
-<h2>@Model.Title</h2>
+    .post-title {
+        color: #e0e0e0;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
 
-<img src="@Model.ImageUrl"
-     alt="@Model.Title"
-     style="width:300px; height:200px; object-fit:cover; display:block; margin-bottom:1rem;" />
+    .post-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 12px;
+        display: block;
+        margin: 0 auto 1.5rem;
+    }
 
-<p>@Model.Content</p>
+    .box{
+        text-align: center;
+    }
 
-<a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back</a>
+    .post-content {
+        font-size: 1.1rem;
+        color: #bbbbbb;
+        margin-bottom: 1rem;
+    }
+
+    .btn-secondary {
+        background-color: #555555;
+        color: #e0e0e0;
+        border: 1px solid #444444;
+        font-weight: bold;
+        padding: 0.5rem 1.5rem;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+        .btn-secondary:hover {
+            background-color: #666666;
+            border-color: #555555;
+            color: #ffffff;
+        }
+
+        .btn-secondary:focus {
+            background-color: #666666 !important;
+            border-color: #555555 !important;
+            color: #ffffff !important;
+        }
+
+</style>
+
+<div class="post-container">
+    <h2 class="post-title">@Model.Title</h2>
+    <img src="@(string.IsNullOrEmpty(Model.ImageUrl) ? "/images/fallback.jpg" : Model.ImageUrl)"
+         alt="@Model.Title"
+         class="post-image" />
+    <div class="box">
+        <p class="post-content">@(string.IsNullOrEmpty(Model.Content) ? "No content available." : Model.Content)</p>
+        <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Back</a>
+    </div>
+</div>
