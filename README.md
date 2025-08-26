@@ -2,7 +2,7 @@
 
 [![.NET](https://img.shields.io/badge/.NET-7-blue)](https://dotnet.microsoft.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/<your-username>/CatBlog)](https://github.com/<your-username>/CatBlog)
+[![Last Commit](https://img.shields.io/github/last-commit/EsraaSoliman2003/CatBlog)](https://github.com/EsraaSoliman2003/CatBlog)
 
 A **personal Cat Blog** built with **ASP.NET Core MVC** and **Entity Framework Core**.  
 Browse cat posts, read content, and enjoy cute cat images. Admin login only, no public registration.
